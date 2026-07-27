@@ -3,17 +3,19 @@
 A high-performance [Nostr](https://github.com/nostr-protocol/nostr) relay server
 written in Rust.
 
+> [!IMPOTANT]  
 > **Beta software.** This relay is under active development. It is stable and
 > production-tested, but APIs and config options may change before 1.0.
 > Bug reports and pull requests are welcome.
->
+
+> [!NOTE]  
 > **Support the project.** If you find nostrd useful, please consider sending a
 > zap or BTC donation:
 >
-> Zap:
+> **Zap:**  
 > `noxiousnexus24@walletofsatoshi.com`
->
-> Bitcoin(BTC):
+>  
+> **BTC:**  
 > `19AtehSNENNE6jXF9UWvz2hH8GdCp6UEn`
 
 ## Features
