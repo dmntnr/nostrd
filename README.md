@@ -16,7 +16,10 @@ written in Rust.
 > `noxiousnexus24@walletofsatoshi.com`
 >  
 > **BTC:**  
-> `19AtehSNENNE6jXF9UWvz2hH8GdCp6UEn`
+> `13LUTf5tBXAv2TyEiKHpg9kVWtgiYz3ZYs`
+>   
+> **BTC(Segwit)**  
+> `bc1qttlc8m9gsh24xxqys26gaz2mtgfzw7s7770am6`
 
 ## Features
 
