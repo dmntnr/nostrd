@@ -45,7 +45,7 @@ impl RelayInfo {
             contact: config.relay_contact.clone(),
             icon: config.relay_icon.clone(),
             supported_nips: vec![1, 9, 11, 12, 18, 19, 23, 25, 28, 40, 42, 45, 77],
-            software: "https://github.com/nostrd/nostrd".to_string(),
+            software: "https://github.com/dmntnr/nostrd".to_string(),
             version: env!("CARGO_PKG_VERSION").to_string(),
             limitation: Some(Limitation {
                 max_message_length: 524288,
