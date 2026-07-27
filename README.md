@@ -3,6 +3,11 @@
 A high-performance [Nostr](https://github.com/nostr-protocol/nostr) relay server
 written in Rust.
 
+
+Experimental host Damustr with nostrd:  
+wss://relay.damustr.com
+
+
 > [!IMPORTANT]  
 > **Beta software.** This relay is under active development. It is stable and
 > production-tested, but APIs and config options may change before 1.0.
