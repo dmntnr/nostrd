@@ -1,0 +1,42 @@
+# nostrd configuration file
+# See: nostrd --help
+
+# Listen address for HTTP and WebSocket
+listen_addr = "0.0.0.0:80"
+
+# Relay metadata (displayed in NIP-11)
+relay_name = "nostrd"
+relay_description = "A Nostr relay server"
+# relay_pubkey = ""
+# relay_contact = ""
+# relay_icon = ""
+
+# Event validation
+max_event_age_days = 30
+max_event_tags = 2000
+max_content_length = 100000
+
+# Subscription limits
+max_subscription_filters = 10
+max_subscriptions_per_client = 20
+
+# Authentication (NIP-42)
+auth_required = false
+nip42_enabled = true
+
+# Performance tuning
+# LMDB configuration
+# map_size uses virtual address space, NOT physical RAM.
+# Set to the maximum expected database size.
+# LMDB only allocates physical RAM for pages actually used.
+lmdb_map_size_gb = 256
+broadcast_channel_size = 4096    # Event broadcast buffer
+max_connections = 1000           # Maximum concurrent WebSocket connections
+max_query_candidates = 10000     # Max events scanned per query
+max_ws_message_size = 524288     # Max WebSocket message size (bytes)
+
+# Resource protection
+connection_timeout_secs = 300   # Idle connection timeout (seconds)
+max_sessions = 100000           # Max in-memory session entries
+max_events_per_sec = 100        # Per-connection event rate limit (per second)
+max_req_result_limit = 5000     # Max results returned per REQ

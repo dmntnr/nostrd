@@ -1,0 +1,22 @@
+{
+  "name": "Rust",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "ohmy-zsh.oh-my-zsh",
+        "vadimcn.vscode-lldb"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "rust-analyzer.check.command": "clippy"
+      }
+    }
+  },
+  "forwardPorts": [
+    80
+  ]
+}

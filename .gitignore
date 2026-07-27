@@ -1,0 +1,6 @@
+/target
+*.mdb
+nostrd.toml
+*.log
+*.pid
+nostrd.panic.log
